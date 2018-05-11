@@ -24,6 +24,11 @@ body {
     width: 100%;
 }
 
+.bg-white {
+    background-color: #fff;
+    width: 100%;
+}
+
 .grey-background {
     background-color: #ebedec;
     width: 100%;
@@ -363,6 +368,15 @@ p.p2 {
 .col-sm-4 {
     margin: 0 0 0 -1.5%;
 }
+
+.spacing {
+    height:400px;
+}
+
+.description {
+    margin-top:-15px;
+}
+
 
 #passenger {
     color: #006564;

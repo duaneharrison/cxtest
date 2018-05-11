@@ -1,0 +1,623 @@
+@import url(https://assets.cathaypacific.com/fonts/css/prod/fonts.css);
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    font-family: 'Aktiv Grotesk W01 Regular';
+    color: #4C4C4C;
+    box-sizing: border-box;
+    margin: auto;
+    overflow-x: hidden;
+}
+
+.container-fluid {
+    width: 1280px;
+}
+
+.bg-grey {
+    background-color: #ebedec;
+    width: 100%;
+}
+
+.grey-background {
+    background-color: #ebedec;
+    width: 100%;
+}
+
+.row {
+    width: 1280px;
+    margin: auto;
+}
+
+#header {
+    height: 90px;
+    width: 100%;
+    background-color: #006564;
+}
+
+.cxlogo {
+    height: 29px;
+    width: 200px;
+    margin: 2.5% 0;
+}
+
+.cxlogoswoosh {
+    height: 28px;
+    width: 23px;
+    display: none;
+}
+
+.oneworld {
+    height: 37px;
+    width: 37px;
+    margin: -4.8% 0 100% 95.8%;
+}
+
+/* existing */
+
+h1 {
+    font-family: 'Aktiv Grotesk W01 Light1370681';
+    font-size: 36px;
+    color: #006564;
+    line-height: 41px;
+    margin: 2.5% 0 2% 0;
+}
+
+h2 {
+    font-family: 'Aktiv Grotesk W01 Light1370681';
+    font-size: 28px;
+    color: #006564;
+    line-height: 33px;
+    margin: 2% 0 1% 0;
+}
+
+h3 {
+    font-family: 'Aktiv Grotesk W01 Regular';
+    font-size: 21px;
+    color: #006564;
+    line-height: 25px;
+    margin: 2% 0 1% 0;
+}
+
+h4 {
+    font-family: 'Aktiv Grotesk W01 Regular';
+    font-size: 17px;
+    color: #006564;
+    line-height: 21px;
+    margin: 0 -2% 1% 0;
+}
+
+p {
+    font-family: 'Aktiv Grotesk W01 Regular';
+    font-size: 14px;
+    line-height: 19px;
+    margin: 0 -2% 0 0;
+}
+
+/* proposal 1 */
+
+h1.p1 {
+    font-family: 'Aktiv Grotesk W01 Light1370681';
+    font-size: 30px;
+    color: #006564;
+    line-height: 35px;
+    margin: 2.5% 0 2% 0;
+}
+
+h2.p1 {
+    font-family: 'Aktiv Grotesk W01 Light1370681';
+    font-size: 26px;
+    color: #006564;
+    line-height: 31px;
+    margin: 2% 0 1% 0;
+}
+
+h3.p1 {
+    font-family: 'Aktiv Grotesk W01 Regular';
+    font-size: 20px;
+    color: #006564;
+    line-height: 24px;
+    margin: 2% 0 1% 0;
+}
+
+h4.p1 {
+    font-family: 'Aktiv Grotesk W01 Regular';
+    font-size: 15px;
+    color: #006564;
+    line-height: 19px;
+    margin: 0 -2% 1% 0;
+}
+
+p.p1 {
+    font-family: 'Aktiv Grotesk W01 Regular';
+    font-size: 14px;
+    line-height: 19px;
+    margin: 0 -2% 0 0;
+}
+
+
+/* proposal 2 */
+
+h1.p2 {
+    font-family: 'Aktiv Grotesk W01 Light1370681';
+    font-size: 32px;
+    color: #006564;
+    line-height: 38px;
+    margin: 2.5% 0 2% 0;
+}
+
+h2.p2 {
+    font-family: 'Aktiv Grotesk W01 Light1370681';
+    font-size: 26px;
+    color: #006564;
+    line-height: 31px;
+    margin: 2% 0 1% 0;
+}
+
+h3.p2 {
+    font-family: 'Aktiv Grotesk W01 Medium';
+    font-size: 19px;
+    color: #006564;
+    line-height: 23px;
+    margin: 2% 0 1% 0;
+}
+
+h4.p2 {
+    font-family: 'Aktiv Grotesk W01 Medium';
+    font-size: 17px;
+    color: #006564;
+    line-height: 21px;
+    margin: 0 -2% 1% 0;
+}
+
+p.p2 {
+    font-family: 'Aktiv Grotesk W01 Regular';
+    font-size: 16px;
+    line-height: 21px;
+    margin: 0 -2% 0 0;
+}
+
+
+
+#cancelled-message {
+    width: 824px;
+    margin: -.5% 0 2.3% 0%;
+}
+
+#accept-message {
+    width: 824px;
+    font-size: 14px;
+    margin: 2.5% 0 1% 0;
+}
+
+#booking-reference {
+    font-size: 14px;
+    line-height: 21px;
+    font-family: 'Aktiv Grotesk W01 Medium';
+    margin: 0 0 2% 0;
+}
+
+.flight-icon {
+    height: 30px;
+    width: 30px;
+    margin: 2% 0 1% 2%;
+}
+
+.flight-divider {
+    height: 11px;
+    width: 1px;
+    background-color: #C6C2C1;
+    margin: -2% 0 0 15.7%;
+}
+
+.flight-number {
+    color: #006564;
+    margin: -2% 0 0 17%;
+}
+
+.space {
+    padding: .5%;
+}
+
+.days {
+    font-size: 12px;
+    margin: -5% 0 3% 12.5%;
+}
+
+.business-class {
+    height: 35px;
+    width: 280px;
+    margin: -9% 0 0 63%;
+}
+
+.business-small {
+    display: none;
+}
+
+.operation {
+    width: 250px;
+    margin: -2% 0 0 64.5%;
+}
+
+.passenger-icon {
+    height: 30px;
+    width: 30px;
+    margin: -1% 2% 0 -3%;
+}
+
+.baby-icon {
+    height: 20px;
+    width: 15px;
+    margin: -1% 3.5% 0 -.5%;
+}
+
+.route-depart {
+    height: 28px;
+    width: 280px;
+    margin: -1% 0 0 15%;
+}
+
+.flight-one {
+    height: 64px;
+    width: 822px;
+    background-color: #FFFFFF;
+}
+
+.flight-one-title {
+    margin: -5.5% 0 -1% 7%;
+}
+
+.flight-one-gap {
+    height: 1px;
+    width: 822px;
+    transform: scaley(-1);
+    background-color: #ebedec;
+}
+
+.flight-one-details {
+    height: 90px;
+    width: 822px;
+    background-color: #FFFFFF;
+    margin: -2.3% 0 0 0;
+}
+
+.flight-one-from {
+    margin: 2% 0 -2.5% 7%;
+    padding: 2% 0 0 0;
+    font-family: 'Aktiv Grotesk W01 Bold1370651';
+}
+
+.flight-one-duration {
+    font-size: 10px;
+    margin: -4.5% 0 0 26%;
+}
+
+.flight-one-to {
+    margin: -7.5% 0 0 51%;
+    padding: 1.5% 0 0 0;
+    font-family: 'Aktiv Grotesk W01 Bold1370651';
+}
+
+.flight-two {
+    height: 64px;
+    width: 822px;
+    background-color: #FFFFFF;
+    margin-top: 10px;
+}
+
+.flight-two-title {
+    margin: -5.5% 0 -1% 7%;
+}
+
+.flight-two-gap {
+    height: 1px;
+    width: 822px;
+    transform: scaley(-1);
+    background-color: #ebedec
+}
+
+.flight-two-details {
+    height: 90px;
+    width: 822px;
+    background-color: #FFFFFF;
+    margin: -2.3% 0 0 0;
+}
+
+.flight-two-from {
+    margin: 2% 0 -2.5% 7%;
+    padding: 2% 0 0 0;
+    font-family: 'Aktiv Grotesk W01 Bold1370651';
+}
+
+.flight-two-duration {
+    font-size: 10px;
+    margin: -4.5% 0 0 26%;
+}
+
+.flight-two-to {
+    margin: -7.5% 0 0 51%;
+    padding: 1.5% 0 0 0;
+    font-family: 'Aktiv Grotesk W01 Bold1370651';
+}
+
+.meal {
+    margin-top: 30px;
+}
+
+.accept {
+    height: 46px;
+    width: 194px;
+    border: 0.5px solid rgba(0, 0, 0, 0.2);
+    border-radius: 2px;
+    box-shadow: 0 1px 0 0 #ebedec;
+    background: linear-gradient(180deg, #0A90A3 0%, #00718C 100%);
+    color: #FFFFFF;
+    margin: 3% 0 3% 0;
+}
+
+.col-sm-4 {
+    margin: 0 0 0 -1.5%;
+}
+
+#passenger {
+    color: #006564;
+    font-size: 19px;
+    margin: 11% 0 4% 1%;
+}
+
+.passenger1 {
+    height: 60px;
+    width: 400px;
+    margin: 1%;
+    padding: 5%;
+    background-color: #FFFFFF;
+    font-family: 'Aktiv Grotesk W01 Regular';
+    font-size: 15px;
+}
+
+.passenger2 {
+    height: 60px;
+    width: 400px;
+    margin: 1%;
+    padding: 5%;
+    background-color: #FFFFFF;
+    font-family: 'Aktiv Grotesk W01 Regular';
+    font-size: 15px;
+}
+
+.passenger3 {
+    height: 60px;
+    width: 400px;
+    margin: 1%;
+    padding: 5%;
+    background-color: #FFFFFF;
+    font-family: 'Aktiv Grotesk W01 Regular';
+    font-size: 15px;
+}
+
+.passenger4 {
+    height: 60px;
+    width: 400px;
+    margin: 1%;
+    padding: 5%;
+    background-color: #FFFFFF;
+    font-family: 'Aktiv Grotesk W01 Regular';
+    font-size: 15px;
+}
+
+.passenger5 {
+    height: 60px;
+    width: 400px;
+    margin: 1%;
+    padding: 5%;
+    background-color: #FFFFFF;
+    font-family: 'Aktiv Grotesk W01 Regular';
+    font-size: 15px;
+}
+
+.passenger5-baby {
+    height: 60px;
+    width: 400px;
+    margin: -.8% 1%;
+    padding: 5%;
+    background-color: #FFFFFF;
+    font-family: 'Aktiv Grotesk W01 Regular';
+    font-size: 15px;
+}
+
+.line1 {
+    height: 1px;
+    width: 822px;
+    background-color: #C6C2C1;
+    margin: 0 0 2% 0;
+}
+
+.expand-arrow-up {
+    height: 12px;
+    width: 21px;
+    margin: 0 2% 0 0;
+    display: none;
+}
+
+.expand-arrow-down {
+    height: 12px;
+    width: 21px;
+    margin: 0 2% 0 0;
+    /* display: ; */
+}
+
+.cancelled-itin {
+    background-color: #ebedec;
+    border: #ebedec;
+    color: #00718C;
+    margin: 1% 0 1% 2%;
+}
+
+.line2 {
+    height: 1px;
+    width: 822px;
+    background-color: #C6C2C1;
+    margin: 2% 0 0 0;
+}
+
+.old-flight-one {
+    height: 64px;
+    width: 822px;
+    background-color: #FFFFFF;
+    margin-top: 15px;
+}
+
+.old-flight-two {
+    height: 64px;
+    width: 822px;
+    background-color: #FFFFFF;
+    margin-top: 10px;
+}
+
+.footer {
+    background-color: white;
+    width: 1280px;
+    margin: 0 0 0 -1%;
+}
+
+.cathay-pacific {
+    height: 21px;
+    width: 150px;
+    margin: 2% 0 0 1.5%;
+}
+
+.cathay-dragon {
+    height: 21px;
+    width: 158px;
+    margin: 2% 0 0 2%;
+}
+
+.asia-miles {
+    height: 21px;
+    width: 82px;
+    margin: 2% 0 0 2%;
+}
+
+.legal {
+    height: 14px;
+    width: 76px;
+    color: #0F748F;
+    font-size: 11px;
+    line-height: 14px;
+    margin: 2% 0 0 1.5%;
+}
+
+.contact {
+    height: 14px;
+    width: 57px;
+    color: #0F748F;
+    font-size: 11px;
+    line-height: 14px;
+    margin: -1% 0 0 9%;
+}
+
+.copyright {
+    height: 14px;
+    width: 50px;
+    color: #0F748F;
+    font-size: 11px;
+    line-height: 14px;
+    margin: -1.1% 0 0 15%;
+}
+
+.cpa {
+    height: 14px;
+    width: 284px;
+    color: #767676;
+    font-size: 11px;
+    line-height: 14px;
+    margin: -1.1% 0 0 19%;
+}
+
+.backdrop {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.acceptance {
+    position: relative;
+    top: 25%;
+    margin: 0 auto;
+    height: 240px;
+    width: 613.5px;
+    background-color: #FFFFFF;
+    z-index: 11;
+}
+
+.acceptance-content {
+    position: relative;
+    top: 20%;
+    margin: 0 auto;
+    width: 540px;
+    font-weight: 300;
+}
+
+.cancel {
+    height: 46px;
+    width: 156px;
+    border: 1px solid #0F748F;
+    background-color: white;
+    border-radius: 2px;
+    position: relative;
+    left: 225px;
+    top: 30px;
+}
+
+.confirm {
+    height: 46px;
+    width: 155px;
+    border: 0.5px solid rgba(0, 0, 0, 0.2);
+    border-radius: 2px;
+    background: linear-gradient(180deg, #0A90A3 0%, #00718C);
+    box-shadow: 0 1px 0 0 rgba(0, 0, 0, 0.2);
+    color: white;
+    position: relative;
+    left: 240px;
+    top: 30px;
+}
+
+.thanks {
+    position: relative;
+    top: 25%;
+    margin: 0 auto;
+    height: 210px;
+    width: 613.5px;
+    background-color: #FFFFFF;
+    z-index: 11;
+}
+
+.thanks-content {
+    color: #006564;
+    text-align: center;
+    font-size: 24px;
+    position: relative;
+    top: 18%;
+    margin: 0 auto;
+    width: 540px;
+}
+
+.manage {
+    height: 46px;
+    width: 206px;
+    border: 0.5px solid rgba(0, 0, 0, 0.2);
+    border-radius: 2px;
+    background: linear-gradient(180deg, #0A90A3 0%, #00718C 100%);
+    box-shadow: 0 1px 0 0 rgba(0, 0, 0, 0.2);
+    color: white;
+    position: relative;
+    left: 200px;
+    top: 70px;
+}

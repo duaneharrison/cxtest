@@ -49,7 +49,7 @@
             font-family: 'Aktiv Grotesk W01 Light1370681';
             font-size: 24px;
             color: #006564;
-            line-height: 36px;
+            line-height: 60px;
             margin: 2.5% 0 2% 0;
         }
 
@@ -411,7 +411,7 @@
     }
 
     .spacing {
-        height:60px;
+        height:120px;
     }
 
 
